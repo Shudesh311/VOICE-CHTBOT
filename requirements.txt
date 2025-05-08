@@ -4,3 +4,4 @@ langdetect
 pandas
 rapidfuzz
 fsspec
+gunicorn
