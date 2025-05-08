@@ -8,8 +8,8 @@ from rapidfuzz import process, fuzz   # <<< ADD THIS
 app = Flask(__name__)
 
 # Load datasets
-english_df = pd.read_csv('C://Users//niles//OneDrive//Documents//Documents//Questions_answers.csv')
-tamil_df = pd.read_csv('C://Users//niles//OneDrive//Documents//tamil.csv')
+english_df = pd.read_csv('C://Users//SHUDESH//Documents//Questions_answers.csv')
+tamil_df = pd.read_csv('C://Users//SHUDESH//Documents//tamil.csv')
 
 @app.route('/')
 def index():
