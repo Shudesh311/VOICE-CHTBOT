@@ -1,1 +1,1 @@
-web: gunicorn app:appgit add requirements.txt Procfile
+web: gunicorn app:app
